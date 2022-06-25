@@ -201,6 +201,18 @@ header {
 
   background-color: #2f303a;
 
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+ background-image: linear-gradient(to right,
+ rgba(47, 48, 58, 0.4),
+ rgba(47, 48, 58, 0.4)),
+  url(../images/Hero/img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   outline: 2px solid tomato;
 }
 
@@ -323,6 +335,42 @@ header {
 .feature-list {
   display: flex;
 }
+
+/*---Icons---*/
+
+.list-item::before{
+  display: block;
+  content:'';
+  
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+
+  outline: 2px solid rebeccapurple;
+}
+
+.icon-antenna::before {
+  background-image: /*url("../images/features/antenna.svg")*/;
+ }
+
+.icon-clock::before {
+  background-image: /*url("../images/features/clock.svg")/*;
+}
+
+.icon-diagram::before {
+  background-image: /*url("../images/features/diagram.svg")/*;
+}
+
+.icon-astronaut::before {
+  background-image: /*url("../images/features/astronaut.svg")/*;
+}
+
+
+
+
 
 /* Чем мы занимаемся */
 
