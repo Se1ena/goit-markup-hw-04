@@ -352,24 +352,25 @@ header {
   outline: 2px solid rebeccapurple;
 }
 
-.icon-antenna::before {
-  background-image: /*url("../images/features/antenna.svg")*/;
+
+/*.icon-antenna::before {
+  width: 70px;
+  height: 70px;
+
+  background-image: url("../images/icons/sprite.svg");
  }
 
 .icon-clock::before {
-  background-image: /*url("../images/features/clock.svg")/*;
+  background-image: url("../images/features/clock.svg");
 }
 
 .icon-diagram::before {
-  background-image: /*url("../images/features/diagram.svg")/*;
+  background-image: url("../images/features/diagram.svg");
 }
 
 .icon-astronaut::before {
-  background-image: /*url("../images/features/astronaut.svg")/*;
-}
-
-
-
+  background-image: url("../images/features/astronaut.svg");
+}*/
 
 
 /* Чем мы занимаемся */
