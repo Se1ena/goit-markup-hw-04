@@ -228,7 +228,7 @@ header {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/Hero/img.jpg);
+    url(../images/hero/img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -362,8 +362,8 @@ header {
 .list-item-preview {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  align-items: center;
+  height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -423,7 +423,10 @@ header {
 }
 
 .section-team {
+  padding-top: 94px;
   padding-bottom: 94px;
+
+  background: #F5F4FA;
 }
 
 .photos {
@@ -447,6 +450,8 @@ header {
   margin-top: 16px;
   margin-bottom: 30px;
 
+  gap: 10px;
+
   padding: 0px;
 
   list-style: none;
@@ -465,7 +470,9 @@ header {
 }
 
 .link-icon:hover,
-.link-icon.black-icon:hover{
+.link-icon:focus,
+.link-icon.black-icon:hover,
+.link-icon.black-icon:focus{
   background-color: var(--acent-color-icons);
   color: #ffffff;
 }
@@ -494,6 +501,7 @@ color: #ffffff;
 }
 
 .section-clients {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -507,7 +515,7 @@ color: #ffffff;
   margin: 0;
 }
 
-.clients-item {
+ .clients-icon{
   align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -515,13 +523,10 @@ color: #ffffff;
   color: var(--color-icons-company);
 }
 
-a:hover .clients-icon {
+.clients-icon:focus,
+.clients-icon:hover{
   fill: #2196f3;
   border-color: #2196f3;
-}
-
-.clients-item:hover {
-  border: 1px solid #2196f3;
 }
 
 .clients-icon {
@@ -534,9 +539,6 @@ a:hover .clients-icon {
   fill: var(--acent-color-icons);
   border: var(--acent-color-icons);
 }
-
-
-
 
 /*  Logo Footer */
 
